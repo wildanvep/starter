@@ -23,7 +23,6 @@ function is_logged_in()
         }
     }
 }
-<<<<<<< HEAD
 
 function check_access($role_id, $menu_id)
 {
@@ -37,5 +36,3 @@ function check_access($role_id, $menu_id)
         return "checked='checked'";
     }
 }
-=======
->>>>>>> e2fe8b5bbdbe9e05f768ef53e2820b9cfd3143bf

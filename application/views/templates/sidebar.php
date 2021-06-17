@@ -49,21 +49,12 @@
                        <?php else : ?>
                        <li class="nav-item">
                        <?php endif; ?>
-<<<<<<< HEAD
                        <a class="nav-link pb-0" href="<?= base_url($sm['url']); ?>">
-=======
-                       <a class="nav-link" href="<?= base_url($sm['url']); ?>">
->>>>>>> e2fe8b5bbdbe9e05f768ef53e2820b9cfd3143bf
                            <i class="<?= $sm['icon']; ?>"></i>
                            <span><?= $sm['title']; ?></span></a>
                        </li>
                    <?php endforeach; ?>
-
-<<<<<<< HEAD
                    <hr class="sidebar-divider mt-3">
-=======
-                   <hr class="sidebar-divider">
->>>>>>> e2fe8b5bbdbe9e05f768ef53e2820b9cfd3143bf
 
                <?php endforeach; ?>
 
